@@ -125,7 +125,7 @@ img.grayscale {
 
 .header {
   height: 80%;
-  background: #f68076 url('/images/header.jpg') repeat center bottom fixed;
+  background: #f68076 url('../images/header.jpg') repeat center bottom fixed;
 }
 
 /* use alt in navbar and header for different color */
@@ -193,7 +193,7 @@ img.grayscale {
   padding-top:7%;
   height: 100%;
   width: 100%;
-  background: url('/images/h-farm.jpg') no-repeat center center fixed; 
+  background: url('../images/h-farm.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
