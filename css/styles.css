@@ -126,6 +126,7 @@ img.grayscale {
 .header {
   height: 80%;
   background: #f68076 url('../images/header.jpg') repeat center bottom fixed;
+  background-size: cover;
 }
 
 /* use alt in navbar and header for different color */
