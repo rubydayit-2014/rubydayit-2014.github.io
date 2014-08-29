@@ -218,4 +218,9 @@ footer {
   padding: 100px 0;
 }
 
+.jimdo {
+  top: 60px;
+  left: 0px;
+  position: absolute;
+}
 /* -- end custom css for Bootstrap 3.x --*/
