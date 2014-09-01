@@ -223,4 +223,8 @@ footer {
   left: 0px;
   position: absolute;
 }
+
+.schedule-time {
+  min-width: 100px;
+}
 /* -- end custom css for Bootstrap 3.x --*/
