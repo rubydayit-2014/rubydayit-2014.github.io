@@ -224,6 +224,11 @@ footer {
   position: absolute;
 }
 
+.cantiere-creativo {
+  top: 35px;
+  position: absolute;
+}
+
 .schedule-time {
   min-width: 100px;
 }
