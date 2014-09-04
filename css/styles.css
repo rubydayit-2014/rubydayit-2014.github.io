@@ -229,7 +229,16 @@ footer {
   position: absolute;
 }
 
+.mikamai {
+  border: 10px solid white;
+  margin: 10px;
+}
+
 .schedule-time {
   min-width: 100px;
+}
+
+#sponsors {
+  height: 900px !important;
 }
 /* -- end custom css for Bootstrap 3.x --*/
