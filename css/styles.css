@@ -194,7 +194,6 @@ img.grayscale {
   padding-top:7%;
   height: 100%;
   width: 100%;
-  background: url('../images/h-farm.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -240,5 +239,9 @@ footer {
 
 #sponsors {
   height: 900px !important;
+}
+
+.sponsor {
+  margin-bottom: 100px;
 }
 /* -- end custom css for Bootstrap 3.x --*/
