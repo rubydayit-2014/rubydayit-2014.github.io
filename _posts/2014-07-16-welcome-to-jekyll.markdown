@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: talk
 title:  "Welcome to Jekyll!"
 date:   2014-07-16 19:36:22
 categories: jekyll update
