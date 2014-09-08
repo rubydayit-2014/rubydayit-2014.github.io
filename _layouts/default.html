@@ -38,5 +38,17 @@
     </div>
 
     {{ content }}
+
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script>
+      $(function() {
+        $(document).on('click.nav', '.navbar-collapse.in', function(e) {
+          if($(e.target).is('a') || $(e.target).is('button')) {
+            $(this).collapse('hide');
+          }
+        });
+      });
+    </script>
   </body>
 </html>

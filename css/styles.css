@@ -20,13 +20,6 @@ h1,h2,h3,h4,.lead,.btn,.navbar a {
   letter-spacing:2px;
 }
 
-.title-container {
-  background-color: rgba(255, 255, 255, 0.7);
-  width: 600px;
-  margin: 30px auto;
-  padding: 10px;
-}
-
 h1 {
   font-size: 50px;
   color: #333;
@@ -108,16 +101,6 @@ img.grayscale {
   background-color:#d46054;
 }
 
-
-.header h1 {
-  font-size:80px;
-  -webkit-text-stroke: 1px rgba(f,f,f,0.1);
-  color: #333;
-  margin-left:-5px;
-  margin-bottom:5px;
-  text-transform:uppercase;
-}
-
 .header .lead {
   color: #9b1c16;
   font-size:25px;
@@ -140,7 +123,7 @@ img.grayscale {
 }
 
 .alt.affix {
-  background-color:#4C06AB;
+  background-color:#CC342D;
 }
 
 .alt li a:hover, .alt li.active {
@@ -248,6 +231,41 @@ footer {
   }
   #h-farm {
     margin-top: 3px;
+  }
+}
+
+.mikamai {
+  width: 100%;
+}
+
+.title-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.header h1 {
+  font-size: 40px;
+  -webkit-text-stroke: 1px rgba(f,f,f,0.1);
+  color: #333;
+  margin-left:-5px;
+  margin-bottom:5px;
+  text-transform:uppercase;
+}
+
+@media (min-width: 600px) {
+  .mikamai {
+    width: 500px;
+  }
+
+  .title-container {
+    width: 600px;
+    margin: 30px auto;
+  }
+
+  .header h1 {
+    font-size:80px;
   }
 }
 
