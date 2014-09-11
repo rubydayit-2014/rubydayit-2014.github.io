@@ -217,9 +217,6 @@ footer {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  #cantierecreativo {
-    margin-top: 20px;
-  }
   #nebulab {
     margin-top: 60px;
   }
